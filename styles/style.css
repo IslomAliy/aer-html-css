@@ -10,11 +10,14 @@ body {
   background-color: #464548;
 }
 
-.wrapper {
-  display: flex;
-  background-image: url('/assets/images/bg.png');
+.image {
+  background-image: url("/assets/images/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.wrapper {
+  display: flex;
 }
 
 .menuIcon {
@@ -182,7 +185,7 @@ body {
 }
 
 .read-more {
-    color: #d7c6a1;
-    font-size: 16px;
-    font-weight: 500;
+  color: #d7c6a1;
+  font-size: 16px;
+  font-weight: 500;
 }
