@@ -23,7 +23,7 @@ body {
 }
 
 .menuIcon {
-  margin-bottom: 530px;
+  margin-bottom: 440px;
   padding: 58px;
   background-color: #3f3f3f;
 }
@@ -63,7 +63,7 @@ body {
 .menu-items {
   display: flex;
   align-items: center;
-  justify-content: center;
+  gap: 58px;
 }
 
 .menu-items li {
@@ -74,13 +74,12 @@ body {
 .menu-items li a {
   text-decoration: none;
   color: #fff;
-  margin-right: 58px;
+  /* margin-right: 58px; */
   font-weight: 500;
 }
 
-
-.menu-items li a img {
-  margin-left: 81px;
+.search-icon {
+  margin-right: 0 !important;
 }
 
 .active {
@@ -121,16 +120,19 @@ body {
 }
 
 .right-heading {
-  width: 321px;
-  font-size: 72px;
+  width: 100%;
+  max-width: 200px;
+  font-size: 43px;
   font-weight: 700;
   margin-bottom: 40px;
   color: #fff;
 }
 
 .right-desc {
+  width: 100%;
+  max-width: 378px;
   letter-spacing: 7%;
-  font-size: 18px;
+  font-size: 16px;
   color: #848386;
 }
 
